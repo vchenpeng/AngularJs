@@ -1,0 +1,26 @@
+﻿<!--[if lt IE 7]>
+<html lang="en" ng-app="wdcApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html lang="en" ng-app="wdcApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html lang="en" ng-app="wdcApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title ng-bind="title"></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <!--$location in HTML5 mode requires a <base> tag to be present-->
+    <base href="/">
+    <link href="/favicon.ico" type="image/x-icon" rel=icon>
+    <!--此处引入全局样式，例如:base.css-->
+    <!--<link href="libs/assets/css/ionic.min.css" type="text/css" rel="stylesheet" />-->
+    <script type="text/javascript" charset="utf-8" data-main="js/all" src="/libs/require.js"></script>
+</head>
+<body ng-cloak>
+    <div ui-view></div>
+</body>
+</html>
